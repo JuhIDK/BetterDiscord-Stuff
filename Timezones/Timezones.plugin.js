@@ -136,7 +136,7 @@ module.exports = (() => {
                   `;
 
                   const Markdown = Webpack.getModule((m) => m?.rules && m?.defaultProps?.parser);
-                  const SearchableSelect = Webpack.getByKeys("Button", "SearchableSelect")?.SearchableSelect;
+                  const SearchableSelect = Webpack.getModule(Webpack.Filters.bySource("SearchableSelect", "forwardRef"))?.V;
                   const ProfileBanner = Webpack.getModule(Webpack.Filters.byStrings("canUsePremiumProfileCustomization", "let{profileType", "displayProfile"), { defaultExport: false });
                   const MessageHeader = Webpack.getModule(Webpack.Filters.byStrings("userOverride", "withMentionPrefix"), { defaultExport: false });
                   const Tooltip = Components.Tooltip;
