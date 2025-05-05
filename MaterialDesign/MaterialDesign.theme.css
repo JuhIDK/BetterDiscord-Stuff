@@ -18,7 +18,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
 /* Source */
-@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css");
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Modules/Clients/BetterDiscord.css");
+@import url("https://raw.githubusercontent.com/JuhIDK/BetterDiscord-Stuff/ada1de37101f060a80e7aa722aa3e2798900e7ea/MaterialDesign/MaterialDesign.css");
 
 :root {
     --font-primary: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -85,7 +86,7 @@
     --skin-author: "TheCommieAxolotl";
 
     --skin-accent-h: 264;
-    --skin-accent-s: 0%;
+    --skin-accent-s: 84%;
     --skin-accent-l: 100;
     --skin-accent-a: 100;
 
