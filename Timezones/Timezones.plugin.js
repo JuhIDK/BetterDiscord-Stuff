@@ -127,7 +127,7 @@ const Styles = `
 `;
 
 const Markdown = Webpack.getModule((m) => m?.rules && m?.defaultProps?.parser);
-const SearchableSelect = Webpack.getModule(x=>x.render.toString().includes('.focusFirstVisibleItem())},['),{searchExports:true})
+const SearchableSelect = Webpack.getByStrings('formatOption','options','hideTags',{searchExports:true})
 const ProfileBanner = Webpack.getByStrings('"canUsePremiumProfileCustomization"', { defaultExport: false });
 const MessageHeader = Webpack.getModule(Webpack.Filters.byStrings("userOverride", "withMentionPrefix"), { defaultExport: false });
 const Tooltip = Components.Tooltip;
